@@ -2,9 +2,10 @@
 import java.util.List;
 
 /**
-* ${classInfo.classComment}
-* @author ${authorName} ${.now?string('yyyy-MM-dd')}
-*/
+ * @description ${classInfo.classComment}
+ * @author ${authorName}
+ * @date ${.now?string('yyyy-MM-dd')}
+ */
 public interface I${classInfo.className}DAO {
 
     int add(${classInfo.className} ${classInfo.className?uncap_first});
